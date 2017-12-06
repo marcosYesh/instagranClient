@@ -1,0 +1,16 @@
+https://instagram.com/oauth/authorize/?client_id=40bf09b53b6b4af89959f23cfa9af6c9&scope=public_content&redirect_uri=http://instagranclient.yesh.com.br/token/index.php&response_type=token
+
+
+
+
+https://instagram.com/oauth/authorize/?client_id=40bf09b53b6b4af89959f23cfa9af6c9&scope=public_content&redirect_uri=http://instagranclient.yesh.com.br/token/index.php&response_type=token”
+
+https://api.instagram.com/v1/tags/phnoficial?access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
+
+
+https://api.instagram.com/v1/media/search?lat=48.858844&lng=2.294351&access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
+
+https://api.instagram.com/v1/tags/phnoficial/media/recent?access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
+
+https://api.instagram.com/v1/tags/search?q=phnoficial&access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
+https://api.instagram.com/v1/media/shortcode/D?access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
