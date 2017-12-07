@@ -14,3 +14,8 @@ https://api.instagram.com/v1/tags/phnoficial/media/recent?access_token=215473072
 
 https://api.instagram.com/v1/tags/search?q=phnoficial&access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
 https://api.instagram.com/v1/media/shortcode/D?access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
+
+
+https://api.instagram.com/v1/tags/latergram/media/recent?access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
+
+https://api.instagram.com/v1/tags/search?q=PHN2018&access_token=2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e
