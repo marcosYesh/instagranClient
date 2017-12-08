@@ -1,18 +1,5 @@
+<?php namespace src\Instagram;
 
-<?php
-namespace MetzWeb\Instagram;
-/**
- * Instagram API class
- *
- * API Documentation: http://instagram.com/developer/
- * Class Documentation: https://github.com/cosenary/Instagram-PHP-API
- *
- * @author Christian Metz
- * @since 30.10.2011
- * @copyright Christian Metz - MetzWeb Networks 2011-2014
- * @version 2.2
- * @license BSD http://www.opensource.org/licenses/bsd-license.php
- */
 class Instagram
 {
     /**

@@ -1,16 +1,68 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
 <meta charset="UTF-8">
 <title>Acallanto - Cuidados Especializados</title>
+<body>
+	<div id="instafeed"></div>
+</body>
+
 <script src="js/jquery-1.10.2.js"></script>
 <script src="js/jquery.tmpl.js"></script>
-<script src="js/jquery.printElement.js"></script>
-<script src="js/instafeed.js"></script>
+<script src="js/spectragram.js"></script>
+<script type="text/javascript">
+$.spectragram.accessData = {
+    accessToken: '2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e',
+    clientID: '40bf09b53b6b4af89959f23cfa9af6c9'
+};
+
+$('div').spectragram({
+    query: 'converse',
+    max: 14,
+    size: 'big',
+    wrapEachWith: '<p></p>'
+});
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+<!--  <script src="js/instafeed.js"></script>
 <script src="js/insta.js"></script>
 </head>
 <body>
 	<div id="instafeed"></div>
 </body>
 </html>
+<div id="instagram"></div>
+
+<script type="text/javascript">
+	var accessToken = '2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e';
+
+	$
+			.ajax({
+				type : "GET",
+				dataType : "jsonp",
+				cache : false,
+				url : "https://api.instagram.com/v1/tags/SUA-HASHTAG/media/recent?client_id="
+						+ '40bf09b53b6b4af89959f23cfa9af6c9' + "&access_token=" + accessToken + "",
+				success : function(data) {
+					for (var i = 0; i < 4; i++) {
+						//$("#instagram").append("<a class='big-square span2' target='_blank' href='" + data.data[i].link +"'><img src='" + data.data[i].images.thumbnail.url +"'></img>"+ data.data[i].user.full_name +"</a>");
+						$("#instagram")
+								.append(
+										"<figure class='thumb_instagram img-rounded'><a href='" + data.data[i].link +"' target='_blank'><img alt='"+ data.data[i].user.full_name +"' src='" + data.data[i].images.thumbnail.url +"' ></a><figcaption class='cor'><a>@"
+												+ data.data[i].user.full_name
+												+ "</a></figcaption></figure>");
+					}
+				}
+			});
+</script>-->

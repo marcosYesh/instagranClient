@@ -1,14 +1,15 @@
 <?php
-require '../src/Instagram.php';
-use MetzWeb\Instagram\Instagram;
+require 'src/Instagram.php';
+use src\Instagram\Instagram;
 // initialize class
 $instagram = new Instagram(array(
-    'apiKey' => '2154730724.40bf09b.4758ae7d4dd34a49824cef2f58ae820e',
+    'apiKey' => '40bf09b53b6b4af89959f23cfa9af6c9',
     'apiSecret' => ' aa616a25633143d9826e0e5053dce01c',
     'apiCallback' => 'http://instagranclient.yesh.com.br/token/index.php' // must point to success.php
 ));
 // create login URL
 $loginUrl = $instagram->getLoginUrl();
+//array(1) { ["code"]=> string(32) "7a9e1b91174f4b3e9fd108c5df6fd5bc" } array(0) { }
 ?>
 <!DOCTYPE html>
 <html lang="en">
